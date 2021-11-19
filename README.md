@@ -1,5 +1,7 @@
-# Bash-Scripts
+# Pulse-Secure-File-Removal
 
-This repository is a project dump space for my troubleshoot findings as well as my personal project ideas.
+This script is useful for when MacOS users in your org's environment keep receiving errors when attempting to start their Pulse Secure Client app.
 
-I give these away freely to the community in the hopes that they are useful starting points for other endeavors.
+These errors occur when lingering files from previous versions are not fully eradicated in the uninstall process (known flaw of the MacOS-version clients).
+
+An error message commonly seen is "Pulse Secure may damage your computer" or other iterations of this. Connection can be made some times or completely fails, this script looks to resolve this issue and has undergone frequent testing. It works and can be tuned to any app with similar problems by simply changing the file names and paths.
